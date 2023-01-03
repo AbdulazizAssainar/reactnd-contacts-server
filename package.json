@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "clone": "^2.1.2",
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "reactnd-contacts-server",
+  "description": "This is a backend server for the Contacts app in-class project. This project is part of [Udacity's React Nanodegree program](https://www.udacity.com/course/react-nanodegree--nd019).",
+  "version": "1.0.0",
+  "main": "config.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbdulazizAssainar/reactnd-contacts-server.git"
+  },
+  "author": "AK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbdulazizAssainar/reactnd-contacts-server/issues"
+  },
+  "homepage": "https://github.com/AbdulazizAssainar/reactnd-contacts-server#readme"
+}
