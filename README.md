@@ -1,2 +1,3 @@
-# Setting-up-a-Production-Environment
-udacity exercise 
+# reactnd-contacts-server
+Setting up a Production Environment
+ 
