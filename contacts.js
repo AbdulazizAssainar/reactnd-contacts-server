@@ -6,19 +6,19 @@ const db = {}
 const defaultData = {
   contacts: [
     {
-      id: 'ryan',
+      id: '242dfef8-529a-11eb-ae93-0242ac130002',
       name: 'Ryan Florence',
       email: 'ryan@reacttraining.com',
       avatarURL: config.origin + '/ryan.jpg'
     },
     {
-      id: 'michael',
+      id: '299992c6-529a-11eb-ae93-0242ac130002',
       name: 'Michael Jackson',
       email: 'michael@reacttraining.com',
       avatarURL: config.origin + '/michael.jpg'
     },
     {
-      id: 'tyler',
+      id: '307f0b0c-529a-11eb-ae93-0242ac130002',
       name: 'Tyler McGinnis',
       email: 'tyler@reacttraining.com',
       avatarURL: config.origin + '/tyler.jpg'
@@ -60,5 +60,6 @@ const remove = (token, id) => {
 module.exports = {
   get,
   add,
-  remove
+  remove,
+  defaultData
 }
